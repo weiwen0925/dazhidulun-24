@@ -274,11 +274,6 @@ img{-webkit-user-drag:none;pointer-events:none;}
   iframe,.ch-frame{display:none!important;}
 }
 
-/* DevTools / 視窗異常時的霧化遮罩 */
-.bx-shield{
-  filter:blur(18px)!important;pointer-events:none!important;
-  transition:filter .25s ease;
-}
 </style>
 </head><body>
 <button id="sbToggle">☰</button>
@@ -838,24 +833,7 @@ document.addEventListener('keydown',function(e){
   }
 })();
 
-// ===== DevTools / 視窗檢測 → 霧化遮罩 =====
-(function(){
-  var shielded=false;
-  function check(){
-    var dh=window.outerHeight-window.innerHeight;
-    var dw=window.outerWidth-window.innerWidth;
-    // chrome/firefox DevTools 開啟通常 >180px 落差
-    var open=(dh>200)||(dw>200);
-    if(open && !shielded){
-      document.body.classList.add('bx-shield');
-      shielded=true;
-    }else if(!open && shielded){
-      document.body.classList.remove('bx-shield');
-      shielded=false;
-    }
-  }
-  setInterval(check,800);
-  window.addEventListener('resize',check);
-})();
+// 註：原本有 DevTools 視窗尺寸檢測 → 霧化遮罩，但會被瀏覽器縮放、
+// 側邊欄、高 DPI 縮放誤判，已移除。base64 混淆與鍵盤封鎖已足夠。
 </script>
 </body></html>
