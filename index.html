@@ -1175,4 +1175,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C24P14:END-->
+<!--WY-C24P15:BEGIN-->
+<style id="wy-c24p15-css">
+.c24p15-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c24p15-fabbox.show{display:block;}
+.c24p15-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c24p15-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c24p15-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c24p15-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c24p15-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c24p15-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c24p15-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c24p15-modal.open{display:flex;}
+.c24p15-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c24p15-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c24p15-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c24p15-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c24p15-close:hover{background:#e3d5b8;}
+.c24p15-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c24p15-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c24p15-tbl th,.c24p15-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c24p15-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c24p15-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c24p15-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c24p15-tbl b{color:#8b2500;}
+.c24p15-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c24p15-note b{color:#8b2500;}
+@media(max-width:900px){.c24p15-fabbox{right:14px;}.c24p15-tbl{font-size:11.5px;}.c24p15-card{padding:26px 14px 16px;}}
+</style>
+<div class="c24p15-fabbox" id="c24p15Box"><button class="c24p15-btn" id="c24p15Btn" type="button" aria-label="開啟全景總表"><span class="c24p15-ic">▦</span><span class="c24p15-ls"><span class="c24p15-l1">本品 · 十力義（辯證解析）</span><span class="c24p15-l2">三重矛盾以空故有力 · 全卷總收</span></span></button></div><div class="c24p15-modal" id="c24p15Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c24p15-card"><button class="c24p15-close" id="c24p15Close" type="button" aria-label="關閉">×</button><h3>卷二十四·第十五品 十力義（辯證解析）· 全景總表</h3><p class="sub">卷二十四・第十五品｜比較宣說自讚三重邏輯矛盾・水火各異無礙解脫為本・對內斷疑對外師子吼・三喻破謙執以空故有力</p><table class="c24p15-tbl"><caption>一、三重邏輯矛盾與解構框架（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>比較之疑</td><td>是十力何者最勝？若佛力無量，何者最勝？十力本應平等，為何可以比較？</td></tr><tr><td>宣說之疑</td><td>若是十力獨是佛事，弟子今世無人能得，佛何以故說？若只屬佛獨有，為何仍要向弟子開示？</td></tr><tr><td>自讚之疑</td><td>好人法一事智慧尚不應自讚，何況無我無所著人而自讚十力？自讚自毀讚他毀他，如是四種，智者不行！</td></tr><tr><td>三 Phase 論證次第</td><td>Phase Ⅰ體用之爭（法：力是否有高下）→Phase Ⅱ內外之別（教：說法是否有對象）→Phase Ⅲ悲智之辯（行：佛陀自身如何行事）——教法教理教行的解析次第</td></tr></tbody></table><table class="c24p15-tbl"><caption>二、比較與宣說之解構</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>橫向功能平等</td><td>各各於自事中大，如水能漬火能燒，各自有力——量尺錯了，沒有絕對高下，只有契機與否，對症下藥無藥之高下</td></tr><tr><td>縱向因果之辯</td><td>初力為大（能攝十力故，宇宙因果總綱）vs漏盡力大（事辦得涅槃故，究竟目標）——因初力總綱、中其餘八力、果漏盡涅槃</td></tr><tr><td>論主結論</td><td>是十力皆以無礙解脫為根本、無礙解脫為增上——十力是用（俗諦功能），無礙解脫是體（真諦本質）</td></tr><tr><td>對內策略</td><td>斷疑與堅牢（無智人需要絕對值得信賴的依止）＋令四眾歡喜（我等大師獨有如是力，生起堅定歸依心）</td></tr><tr><td>對外戰略</td><td>外道謗佛「常寂靜處住，智慧縮沒」；佛以師子吼轉梵輪回應——一切外道及天世人無能轉者，為止是謗故說是十力</td></tr></tbody></table><table class="c24p15-tbl"><caption>三、謙虛與慈悲之解構·以空故有力總結</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心轉折</td><td>佛雖無我無所著，有無量力，大悲為度眾生故，但說十力，不為自讚——若無我則無慢，自讚必有我慢為根本，我慢必有自我為緣，自我既破，自讚指控便自失立基</td></tr><tr><td>三喻破謙執</td><td>導師與惡賊（我是實語人，汝莫隨誑惑者，沉默便是失職）→良醫與弊醫（我有良藥能除汝病，沉默便是害人）→日月自然有名（不求名但因照耀之功，名聲自然隨之，說是因為能度，名是自然之果）</td></tr><tr><td>力名能有所辦</td><td>用是十種力增益智慧故，能破論議師、能好說法、能摧伏不順、於諸法中得自在——不是虛玄之談，而是可驗證的功能表現</td></tr><tr><td>當仁不讓的中道領導力</td><td>真正的謙虛不是把自己變小，而是去除我執，從而能承擔無限的責任；無我（無「我相」可被冒犯）＋具足力（慈悲運作無限展現）</td></tr><tr><td>以空故有力</td><td>以有空義故，一切法得成——因為無執（空），所以力量無礙；若執我有力，力反受我所限，若知我本空，力自然遍一切處</td></tr></tbody></table><p class="c24p15-note">本品以三場問答層層逼問：比較的矛盾、宣說的矛盾、自讚的矛盾，每一次龍樹菩薩都把表面矛盾翻轉為深層真理——比較轉化為根本（無礙解脫），隱密轉化為獅子吼（大悲顯用），謙虛轉化為大用（當仁不讓）。全卷收束於一句：<b>不求力，求心無礙；心無礙，則力無量</b>。十力並非遙不可及的神話，而是無礙解脫心在救度眾生時的必然顯現——以無我之行，成就有力之悲，這正是卷二十四全卷十五品「十力釋論」的終極歸結。</p></div></div>
+<script id="wy-c24p15-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c24p15Btn"),BOX=document.getElementById("c24p15Box"),MODAL=document.getElementById("c24p15Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=14;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFloat,.vid-float,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c24p15Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C24P15:END-->
 </body></html>
