@@ -645,4 +645,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C24P4:END-->
+<!--WY-C24P5:BEGIN-->
+<style id="wy-c24p5-css">
+.c24p5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c24p5-fabbox.show{display:block;}
+.c24p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c24p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c24p5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c24p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c24p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c24p5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c24p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c24p5-modal.open{display:flex;}
+.c24p5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c24p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c24p5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c24p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c24p5-close:hover{background:#e3d5b8;}
+.c24p5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c24p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c24p5-tbl th,.c24p5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c24p5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c24p5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c24p5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c24p5-tbl b{color:#8b2500;}
+.c24p5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c24p5-note b{color:#8b2500;}
+@media(max-width:900px){.c24p5-fabbox{right:14px;}.c24p5-tbl{font-size:11.5px;}.c24p5-card{padding:26px 14px 16px;}}
+</style>
+<div class="c24p5-fabbox" id="c24p5Box"><button class="c24p5-btn" id="c24p5Btn" type="button" aria-label="開啟全景總表"><span class="c24p5-ic">▦</span><span class="c24p5-ls"><span class="c24p5-l1">本品 · 是處不是處力</span><span class="c24p5-l2">十力之首總攝九力 · 大醫王的因果診斷</span></span></button></div><div class="c24p5-modal" id="c24p5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c24p5-card"><button class="c24p5-close" id="c24p5Close" type="button" aria-label="關閉">×</button><h3>卷二十四·第五品 是處不是處力 · 全景總表</h3><p class="sub">卷二十四・第五品｜總攝九力二進位法則・四大實證領域・大醫王診斷處方AB・空性與定相辯證・唯有空才有因果</p><table class="c24p5-tbl"><caption>一、十力之首的總定位與原典結構（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>總攝九力</td><td>是處不是處力總攝九力——其餘九力雖各有對象（業報、禪定、根器、勝解、界性、行趣、宿命、生死、漏盡），但邏輯結構皆是因緣與果報之間的定相判斷，皆奠基於此第一力</td></tr><tr><td>二進位法則</td><td>是處（Possible）：從是因緣，生如是果報；不是處（Impossible）：從是因緣，不生如是果報——宇宙的因果連線，非通即斷，毫無例外</td></tr><tr><td>四大範疇</td><td>身分與福報（轉輪聖王與佛的排他性）＋業力與果報（善惡因果不可逾越的軌道）＋心理與修證（五蓋與七覺支互斥）＋法界與宇宙（根塵界定的功能特異性）</td></tr><tr><td>多性經實證</td><td>女身作轉輪聖王無是處（不得自在故）；二轉輪聖王一時出世無是處（無怨業成就故）；惡業得受樂報無是處；五蓋覆心離修七覺而得涅槃無是處</td></tr></tbody></table><table class="c24p5-tbl"><caption>二、四大實證領域與大醫王的診斷處方</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>身分福報排他性</td><td>轉輪聖王與佛的果位皆是極致福德所成，結構帶有排他性，如同兩塊同極磁鐵彼此天然斥拒</td></tr><tr><td>業力鐵律</td><td>惡行→受樂報／生天／得涅槃，皆無是處；業力如列車欲反向行於單行軌，結構上即被阻斷</td></tr><tr><td>大醫王良醫喻</td><td>佛知病可治不可治，分別籌量可度者為說法，不可度者為作因緣；聲聞辟支佛所知少，或不應度者欲度、應度而不度，佛則悉遍知無此二失</td></tr><tr><td>處方A是處</td><td>診斷根利＋緣熟→直接干預宣說正法→即時證果解脫；處方B不是處：診斷根鈍＋障重→不強求結果，僅種下未來種子——菩薩的深遠耐心</td></tr><tr><td>診斷三變量</td><td>根（利鈍）、欲（善惡）、性（趨向）交織，構成佛判斷可度不可度、是處不是處的座標系</td></tr></tbody></table><table class="c24p5-tbl"><caption>三、中觀統攝·空性與定相的辯證</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>以有空義故</td><td>若一切法空，為何還會有是處不是處這種定相？《中論》答：以有空義故，一切法得成——正因為法無固定自性，才能隨因緣而生滅組合轉變，因果律才得以運作</td></tr><tr><td>真俗二諦圓融</td><td>俗諦上因果嚴格不爽（是處不是處於此層面成立）；真諦上諸法空無我（因果之所以能運作的根基）——二諦如水之表裡，本是一體</td></tr><tr><td>唯有空才有因果</td><td>若諸法實有固定自性，則永恆不變、不受因緣、不受果報，既不能改變也不能結果；正因無自性，業才能遇緣起、待果熟、終於改變</td></tr><tr><td>遠離斷常中道</td><td>是處（邏輯因果嚴格）防墮斷見，為作因緣（一切可隨緣轉變）防墮常見——二者一收一放，正是中道的平衡木</td></tr><tr><td>專家陷阱</td><td>三障——慢心（自言我是佛）、輕法（輕視因果）、破戒愚癡，使人自絕於得道之門，結果同樣是無是處；學問身分愈高，愈須防此陷阱</td></tr></tbody></table><p class="c24p5-note">「是處不是處力」既是佛陀智慧的起點，也是十力的總閘門——既是俗諦上嚴格的因果律，也是真諦上無自性的緣起展開；既是冷靜的邏輯學，也是慈悲的診斷學。<b>唯有空，才有因果</b>：正因一切法無自性，才能隨因緣生滅流轉，是處與不是處的定相才得以成立而不僵化。佛以此為錨，如實知是處而為說法，如實知不是處而為作因緣。</p></div></div>
+<script id="wy-c24p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c24p5Btn"),BOX=document.getElementById("c24p5Box"),MODAL=document.getElementById("c24p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFloat,.vid-float,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c24p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C24P5:END-->
 </body></html>
