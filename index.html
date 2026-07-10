@@ -1885,4 +1885,52 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH24P5:END-->
+<!--WY-BH24P6:BEGIN-->
+<style id="wy-bh24p6-css">
+.bh24p6-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh24p6-fabbox.show{display:block;}
+.bh24p6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh24p6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh24p6-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh24p6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh24p6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh24p6-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh24p6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh24p6-modal.open{display:flex;}
+.bh24p6-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh24p6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh24p6-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh24p6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh24p6-close:hover{background:#dde2e6;}
+.bh24p6-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh24p6-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh24p6-tbl th,.bh24p6-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh24p6-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh24p6-tbl thead th:nth-child(1){width:32%;}.bh24p6-tbl thead th:nth-child(2){width:41%;}.bh24p6-tbl thead th:nth-child(3){width:27%;}
+.bh24p6-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh24p6-guan{background:#eef2f5;color:#37505f;}
+.bh24p6-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh24p6-tbl tbody tr:nth-child(even) td.bh24p6-guan{background:#e8eef2;}
+.bh24p6-tbl b{color:#8b2500;}
+.bh24p6-guan b{color:#2f6b5a;}
+.bh24p6-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh24p6-note b{color:#8b2500;}
+@media(max-width:900px){.bh24p6-fabbox{right:14px;}.bh24p6-tbl{font-size:11px;}.bh24p6-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh24p6-fabbox" id="bh24p6Box"><button class="bh24p6-btn" id="bh24p6Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh24p6-ic">譯</span><span class="bh24p6-ls"><span class="bh24p6-l1">本品 · 原文·白話·中觀</span><span class="bh24p6-l2">白話翻譯表</span></span></button></div><div class="bh24p6-modal" id="bh24p6Modal" role="dialog" aria-modal="true"><div class="bh24p6-card"><button class="bh24p6-close" id="bh24p6Close" type="button" aria-label="關閉">×</button><h3>卷二十四 · 第6品 白話翻譯表（第二 業報智力）</h3><p class="sub">大智度論卷二十四·第二 業報智力 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh24p6-tbl"><caption>第二 業報智力 · 原文｜白話翻譯｜中觀概念（共21段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh24p6-src">「業報智力」者，身口所作業，及此生無作業，所受戒業，亦惡業，日夜隨生業，用生罪福業。是業，佛略說三處攝，是名一切業相。</td><td>「業報智力」所知的「業」，指身、口所作的業，以及此生的無作業（潛存的業力）、所受的戒業、惡業、日夜隨生之業，用以生起罪福之業。這些業，佛概括以「三處（三性/三受）」統攝，總名一切業相。</td><td class="bh24p6-guan"><b>業報力·三處攝業</b>——身口無作戒惡諸業，佛以三性統攝為一切業相，明業體。</td></tr><tr><td class="bh24p6-src">佛知一切眾生有業過去，報亦過去；有業過去，報在現在；有業過去，報在未來；有業過去，報在過去、現在；有業過去，報在過去、未來；有業過去，報在現在、未來；有業過去，報在過去、未來、現在。現在業亦如是。</td><td>佛知一切眾生：有業在過去、報也在過去；有業在過去、報在現在；有業在過去、報在未來；有業在過去、報通於過去現在；有業在過去、報通過去未來……（如此種種時分交錯）。</td><td class="bh24p6-guan"><b>業報時分交錯</b>——業與報跨三世錯綜，因果非機械對應而有時差。</td></tr><tr><td class="bh24p6-src">復次，善心中受善、不善、無記業報；不善心、無記心亦如是。</td><td>又：善心中可以感受善、不善、無記三種業報；不善心、無記心也是如此。</td><td class="bh24p6-guan"><b>三性受報</b>——善不善無記心皆能感三性報，心業相關。</td></tr><tr><td class="bh24p6-src">復次，樂業因緣故受樂報，苦業因緣故受苦報，不苦不樂業因緣故受不苦不樂報。</td><td>又：樂業因緣感樂報，苦業因緣感苦報，不苦不樂業因緣感不苦不樂報。</td><td class="bh24p6-guan"><b>苦樂捨對應</b>——樂苦捨業各感其報，受性決定。</td></tr><tr><td class="bh24p6-src">現報業因緣故受現報，生報業因緣故受生報，後報業因緣故受後報。</td><td>現報業因緣感現世報，生報業因緣感來生報，後報業因緣感後後世報。</td><td class="bh24p6-guan"><b>現生後三報</b>——依受報時分立現報生報後報。</td></tr><tr><td class="bh24p6-src">不淨業因緣故受惱報，淨業因緣故受無惱報，雜業因緣故受雜報。</td><td>不淨業因緣感惱報，淨業因緣感無惱報，雜業因緣感雜報。</td><td class="bh24p6-guan"><b>淨雜業報</b>——淨不淨雜業各感惱·無惱·雜報。</td></tr><tr><td class="bh24p6-src">復次，二種業：必受報業，不必受報業。必受報業，不可得離，或待時、待人、待處受報。如人應共轉輪聖王受福：待轉輪聖王好世出，是時乃受，是為待時；待人者，人即是轉輪聖王；待處者，轉輪聖王所出處。</td><td>又有兩種業：必定受報的業，與不必受報的業。必受報業無可逃離，或要等時、等人、等處才受報。如某人應與轉輪聖王同時受福，就得等轉輪聖王出於好世（才受）。</td><td class="bh24p6-guan"><b>必受待緣</b>——必受業不可逃，然待時人處，顯因果決定中含緣。</td></tr><tr><td class="bh24p6-src">復次，是必受報業，不待技能功勳，若好若醜，不求自來。如天上生人，福樂自至；地獄中人，罪苦自追。不待因緣，此業深重故。</td><td>又：這必受報業不待技能功勳、無論好醜，都不求自來。如生天上，福樂自至；在地獄中，罪苦自追。不待其他因緣，只因這業深重。</td><td class="bh24p6-guan"><b>業重自來</b>——深重業不待功勳自至，如天福地苦自追。</td></tr><tr><td class="bh24p6-src">復次，必受報業，如毘琉璃軍殺七萬二千諸得道人及無量五戒優婆塞，如目連等大神通人所不能救。如薄拘羅，後母投著火中、湯中、水中而不死。如佛遊諸國，雖出家行乞，不須膳供，而五百乘車載王所食，葉中生粳米，隨飯百味羹。如是等善惡業必受。</td><td>又：必受報業，如毘琉璃王殺七萬二千得道人及無量五戒優婆塞，連目連等大神通人都救不了；又如薄拘羅，後母把他投入火中、湯中、水中（都不死，因其不死之業必受）。</td><td class="bh24p6-guan"><b>定業難逃</b>——琉璃王薄拘羅之例，神通不能救定業，明業力之強。</td></tr><tr><td class="bh24p6-src">餘者不必受。</td><td>其餘的（業）就不一定受報。</td><td class="bh24p6-guan"><b>餘業不定</b>——非必受業則待緣或轉，因果有定有不定。</td></tr><tr><td class="bh24p6-src">欲界受三種業報處：樂受業、苦受業、不苦不樂受業。色界受二種業報處：樂受業、不苦不樂受業。無色界受一種業報處：不苦不樂受業。</td><td>欲界受三種業報之處：樂受業、苦受業、不苦不樂受業。色界受兩種：樂受業、不苦不樂受業。無色界受一種：不苦不樂受業。</td><td class="bh24p6-guan"><b>三界受報處</b>——欲色無色界所受業性遞減，界地決定受報範圍。</td></tr><tr><td class="bh24p6-src">或待事者，依是事得受業報。如弗迦羅婆王池中，生千葉金色蓮華，大如車輪，因是大會快樂，多人出家得道。</td><td>也有「等待某事」才受報的：依那件事而受業報。如弗迦羅婆王的池中生出千葉金色蓮華、大如車輪，因此大會眾人歡樂，許多人出家得道（是等此事而受福報）。</td><td class="bh24p6-guan"><b>待事受報</b>——蓮華大會之例，福報待特定緣事而現。</td></tr><tr><td class="bh24p6-src">佛知一切眾生造諸業處，或欲界、色界、無色界；欲界，在何道中；若天道，在何天中；若人中，在何天下；若閻浮提，在何國；若是國，在何城、何聚落、何精舍、何土地；若是城，在何里、何巷、何舍、在何處。</td><td>佛知一切眾生造業之處：在欲界、色界或無色界；若在欲界，在哪一道；若天道，在哪層天；若人中，在哪個天下；若閻浮提，在哪一國……（層層分別）。</td><td class="bh24p6-guan"><b>遍知造業處</b>——佛知眾生造業之界道處國，鉅細無遺。</td></tr><tr><td class="bh24p6-src">知是業何等時作，過去一世、二世乃至百千萬世。是業果報幾已受、幾未受；幾必受、幾不必受。</td><td>佛知這業在何時所作——過去一世、二世乃至百千萬世；這業果報已受了多少、未受多少；多少必受、多少不必受。</td><td class="bh24p6-guan"><b>遍知業時分量</b>——知業作於何世、已受未受必受幾何，精微遍照。</td></tr><tr><td class="bh24p6-src">知善不善所用事物，所謂刀杖、教勅殺等，自殺，遣人殺；諸餘惡業亦如是。善業亦如是，知如是布施、持戒、修善。施中所施何等土地、房舍、衣服、飲食、醫藥、臥具，七寶財物。戒中受戒，自然戒，心生戒，口言戒；一行戒，少分戒，多分戒，滿分戒；一日戒，七善道戒，十戒，具足戒，定共戒。善福中修初禪，二、三、四禪；慈心、悲、喜、捨心。如是等善業因緣。</td><td>佛知善惡業所用的事物，如刀杖、教唆殺、自殺、遣人殺，及其餘惡業；善業也如此，知如是布施、持戒、修善，乃至布施中所施的是何等田地財物……（皆細知）。</td><td class="bh24p6-guan"><b>遍知業事物</b>——善惡業所依刀杖田物皆細知，業相無隱。</td></tr><tr><td class="bh24p6-src">若慳貪，若瞋恚，若怖畏，若邪見，若惡知識等種種惡業因緣。福業因緣：若信，若憐愍，若恭敬，若禪定，若智慧，若善知識等種種善業因緣。</td><td>惡業因緣有：慳貪、瞋恚、怖畏、邪見、惡知識等種種；福業因緣有：信、憐愍、恭敬、禪定、智慧、善知識等種種。</td><td class="bh24p6-guan"><b>罪福業緣</b>——慳瞋邪見為惡緣、信愍禪慧為善緣，明業之心因。</td></tr><tr><td class="bh24p6-src">是諸業自在，一切天及人，是諸業相無能轉者，於億千萬世常隨逐眾生不捨，如債主隨人。得因緣具足，便與果報；如地中種子，得因緣時節和合便生。是業能令眾生六道中受生，駛疾於箭。一切眾生皆有諸業報分；如父母遺財，諸子皆應得分。是業果報時到，不可遮止，如劫盡火。隨眾生應生處，處處安置，如大國王隨其所應而與官職。人命終時，是業來蔭覆其心，如大山映物。是業能與種種身，如工畫師作種種像。若人以正行業，則與好報；若以邪行業，則與惡報。如人事王，隨事得報。</td><td>這些業有其自在的力用，一切天人都無法轉動其業相，在億千萬世中常隨逐眾生不捨，如債主追人；一旦因緣具足，便給出果報，如地中種子得因緣（水土）便生。</td><td class="bh24p6-guan"><b>業如債主·種子</b>——業自在隨逐、緣熟感果，如債主追人、種子得緣生，喻因果不失。</td></tr><tr><td class="bh24p6-src">如是等分別諸業相果報。</td><td>如此等等分別諸業相與果報。</td><td class="bh24p6-guan"><b>總結業相果報</b>——如上分別即諸業相與果報之全景。</td></tr><tr><td class="bh24p6-src">復次，如《分別業經》中，佛告阿難：「行惡人好處生，行善人惡處生。」阿難言：「是事云何？」佛言：「惡人今世罪業未熟，宿世善業已熟，以是因緣故，今雖為惡而生好處。或臨死時，善心心數法生，是因緣故，亦生好處。行善人生惡處者，今世善未熟，過世惡已熟，以是因緣故，今雖為善而生惡處。或臨死時，不善心心數法生，是因緣故，亦生惡處。」</td><td>又如《分別業經》中，佛告阿難：「行惡的人生到好處，行善的人生到惡處。」阿難問：「這是為什麼？」佛說：「惡人今世的罪業未熟，宿世的善業先熟（故暫生好處）……（善人反之）。」</td><td class="bh24p6-guan"><b>善惡先後熟·破簡見</b>——惡人生好處因宿善先熟，破「善惡即時對應」的淺見，顯業熟有序。</td></tr><tr><td class="bh24p6-src">如是等種種罪福業報、轉報，亦應如是知。</td><td>如此種種罪福業報、以及「轉報」（業報的轉變），也應這樣了知。</td><td class="bh24p6-guan"><b>轉報亦知</b>——業報可轉，佛亦遍知其轉，因果活而不僵。</td></tr><tr><td class="bh24p6-src">聲聞人但知惡業罪報、善業福報，不能如是細分別；佛悉遍知是業及業報，智慧勢力無礙無盡，無能壞故，是名第二力。</td><td>聲聞人只知「惡業得罪報、善業得福報」的粗相，不能如此細加分別；佛則遍知這一切業及業報，智慧勢力無礙無盡、無能破壞，這就是「第二力」。</td><td class="bh24p6-guan"><b>細知業報即第二力</b>——聲聞知粗、佛細遍知業報無盡無礙，是名業報力。</td></tr></tbody></table><p class="bh24p6-note">卷二十四第6品「第二 業報智力」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh24p6-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh24p6Btn"),BOX=document.getElementById("bh24p6Box"),MODAL=document.getElementById("bh24p6Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=5;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh24p6Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH24P6:END-->
 </body></html>
