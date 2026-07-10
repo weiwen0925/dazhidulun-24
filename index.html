@@ -1789,4 +1789,52 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH24P3:END-->
+<!--WY-BH24P4:BEGIN-->
+<style id="wy-bh24p4-css">
+.bh24p4-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh24p4-fabbox.show{display:block;}
+.bh24p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh24p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh24p4-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh24p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh24p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh24p4-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh24p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh24p4-modal.open{display:flex;}
+.bh24p4-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh24p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh24p4-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh24p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh24p4-close:hover{background:#dde2e6;}
+.bh24p4-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh24p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh24p4-tbl th,.bh24p4-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh24p4-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh24p4-tbl thead th:nth-child(1){width:32%;}.bh24p4-tbl thead th:nth-child(2){width:41%;}.bh24p4-tbl thead th:nth-child(3){width:27%;}
+.bh24p4-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh24p4-guan{background:#eef2f5;color:#37505f;}
+.bh24p4-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh24p4-tbl tbody tr:nth-child(even) td.bh24p4-guan{background:#e8eef2;}
+.bh24p4-tbl b{color:#8b2500;}
+.bh24p4-guan b{color:#2f6b5a;}
+.bh24p4-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh24p4-note b{color:#8b2500;}
+@media(max-width:900px){.bh24p4-fabbox{right:14px;}.bh24p4-tbl{font-size:11px;}.bh24p4-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh24p4-fabbox" id="bh24p4Box"><button class="bh24p4-btn" id="bh24p4Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh24p4-ic">譯</span><span class="bh24p4-ls"><span class="bh24p4-l1">本品 · 原文·白話·中觀</span><span class="bh24p4-l2">白話翻譯表</span></span></button></div><div class="bh24p4-modal" id="bh24p4Modal" role="dialog" aria-modal="true"><div class="bh24p4-card"><button class="bh24p4-close" id="bh24p4Close" type="button" aria-label="關閉">×</button><h3>卷二十四 · 第4品 白話翻譯表（法會緣起·十力總標）</h3><p class="sub">大智度論卷二十四·法會緣起·十力總標 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh24p4-tbl"><caption>法會緣起·十力總標 · 原文｜白話翻譯｜中觀概念（共17段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh24p4-src">復次，佛在王舍城耆闍崛山中說是般若波羅蜜時，佛四部眾及諸外道在家、出家，諸天龍、鬼神等種種大眾集會。佛入三昧王三昧，放大光明，遍照恒河沙等世界，地六種震動，說是般若波羅蜜六波羅蜜乃至三無漏根。</td><td>又：佛在王舍城耆闍崛山中宣說這部般若波羅蜜時，佛的四眾弟子、外道在家出家者、諸天龍鬼神等種種大眾都來集會。佛入「三昧王三昧」，放大光明遍照恒河沙世界，大地六種震動，宣說這般若波羅蜜、六波羅蜜乃至三無漏根。</td><td class="bh24p4-guan"><b>法會緣起·實相智力</b>——放光震動的不可思議，源出「諸法實相智力」，非幻術，破疑生信。</td></tr><tr><td class="bh24p4-src">是中有眾生疑：「有何等力，有幾種力故，能作如是不可思議感動利益？」佛知眾生心有如是疑故言：「我有諸法實相智力，是力有十種，用是十種智故，能作如是感動變化，亦能過是所作。」以是故言「欲得十力，當學般若波羅蜜」。</td><td>當時眾中有人起疑：「是什麼力、有幾種力，能作出這樣不可思議的感動與利益？」佛知眾生心有此疑，便說：「我有『諸法實相智力』，此力有十種，用這十種智，能作如此感動變化，甚至超過所作。」所以說「想得十力，當學般若波羅蜜」。</td><td class="bh24p4-guan"><b>破眾生疑</b>——感動利益之本在實相智，故導歸「當學般若」。</td></tr><tr><td class="bh24p4-src">復次，佛弟子世世殖善根，以少罪緣故墮外道。諸外道常言：「佛非實有功德力，是幻術力誑惑人心。」佛弟子墮外道者心疑：「若爾者，佛非大人。」欲滅是惡謗故言：「我實有十力、四無所畏故度眾生，非是幻誑也。」</td><td>又：佛弟子世世種善根，只因少許罪緣而墮為外道。外道常說：「佛並非真有功德力，那是幻術力在誑惑人心。」墮外道的佛弟子心生疑惑「若真如此，佛就不是大人物」。佛為滅此惡謗而說：「我實有十力、四無所畏來度眾生，不是幻誑。」</td><td class="bh24p4-guan"><b>破外道謗</b>——十力四無畏是實德度生，非幻誑，立佛之大人相。</td></tr><tr><td class="bh24p4-src">復次，諸菩薩修菩薩道、苦行事，難辦難成故欲懈息，是故佛言：「行是十力，當得無量果報。」譬如估客主慰喻商人言：「汝等慎勿疲惓，精勤努力，得至寶山，當得七寶、如意寶珠。」佛亦如是安慰諸菩薩言：「無得疲厭，當勤精進，修菩薩道；行是十力，當得無量果報。」如是等種種利益因緣故說十力等。</td><td>又：諸菩薩修菩薩道、行種種苦行，因難成難辦而想懈怠歇息，佛因此說「行此十力，當得無量果報」。譬如商隊領隊安慰商人：「你們切莫疲倦，精勤努力，到了寶山，就能得七寶、如意寶珠。」佛也如此安慰菩薩：「莫要疲厭，當勤精進修菩薩道；行此十力，當得無量果報。」以這些種種利益的因緣，才宣說十力等。</td><td class="bh24p4-guan"><b>寶山喻·策進菩薩</b>——以商隊得寶喻策勵菩薩勿懈，行十力得無量果。</td></tr><tr><td class="bh24p4-src">問曰：佛有無量力，何以故但說十力？</td><td>問：佛有無量的力，為何只說十力？</td><td class="bh24p4-guan"><b>無量力何以說十</b>——設問逗出「隨度生因緣而攝為十」之答。</td></tr><tr><td class="bh24p4-src">答曰：諸佛雖有無量力，度人因緣故，說十力，足成辦其事。</td><td>答：諸佛雖有無量力，但為度人的因緣，說十力就足以成辦其事。</td><td class="bh24p4-guan"><b>攝無量為十·稱機</b>——力雖無量，度生但取十力即足，顯法應機而施。</td></tr><tr><td class="bh24p4-src">以是處不是處智力，分別籌量眾生，是可度是不可度。</td><td>以「處非處智力」，分別衡量眾生是可度、是不可度。</td><td class="bh24p4-guan"><b>十力度生（一）處非處</b>——判可度不可度。</td></tr><tr><td class="bh24p4-src">以業報智力，分別籌量是人業障，是人報障，是人無障。</td><td>以「業報智力」，分別衡量此人是業障、是報障、還是無障。</td><td class="bh24p4-guan"><b>十力度生（二）業報</b>——判業障報障無障。</td></tr><tr><td class="bh24p4-src">以禪定解脫三昧智力，分別籌量是人著味，是人不著味。</td><td>以「禪定解脫三昧智力」，分別衡量此人是貪著定味、還是不著味。</td><td class="bh24p4-guan"><b>十力度生（三）禪定</b>——判著味不著味。</td></tr><tr><td class="bh24p4-src">以上下根智力，分別籌量眾生智力多少。</td><td>以「上下根智力」，分別衡量眾生智力的多少。</td><td class="bh24p4-guan"><b>十力度生（四）上下根</b>——判智力多少。</td></tr><tr><td class="bh24p4-src">以種種欲智力，分別籌量眾生所樂。</td><td>以「種種欲智力」，分別衡量眾生的好樂所在。</td><td class="bh24p4-guan"><b>十力度生（五）種種欲</b>——判好樂所在。</td></tr><tr><td class="bh24p4-src">以種種性智力，分別籌量眾生深心所趣。</td><td>以「種種性智力」，分別衡量眾生深心的趣向。</td><td class="bh24p4-guan"><b>十力度生（六）種種性</b>——判深心趣向。</td></tr><tr><td class="bh24p4-src">以一切至處道智力，分別籌量眾生解脫門。</td><td>以「一切至處道智力」，分別衡量眾生的解脫之門。</td><td class="bh24p4-guan"><b>十力度生（七）至處道</b>——判解脫之門。</td></tr><tr><td class="bh24p4-src">以宿命智力，分別眾生先所從來。</td><td>以「宿命智力」，分別眾生先前從何而來。</td><td class="bh24p4-guan"><b>十力度生（八）宿命</b>——知先所從來。</td></tr><tr><td class="bh24p4-src">以生死智力，分別眾生生處好醜。</td><td>以「生死智力」，分別眾生投生之處的好醜。</td><td class="bh24p4-guan"><b>十力度生（九）生死</b>——知生處好醜。</td></tr><tr><td class="bh24p4-src">以漏盡智力，分別籌量眾生得涅槃。</td><td>以「漏盡智力」，分別衡量眾生能否得涅槃。</td><td class="bh24p4-guan"><b>十力度生（十）漏盡</b>——判能否得涅槃。</td></tr><tr><td class="bh24p4-src">佛用是十種力度脫眾生，審諦不錯，皆得具足。以是故，佛雖有無量力，但說此十力。</td><td>佛用這十種力度脫眾生，審察精確無誤、皆得具足。所以佛雖有無量力，只說這十力。</td><td class="bh24p4-guan"><b>十力審諦不錯</b>——十智合用、度生精準具足，故無量力但說十力。</td></tr></tbody></table><p class="bh24p4-note">卷二十四第4品「法會緣起·十力總標」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh24p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh24p4Btn"),BOX=document.getElementById("bh24p4Box"),MODAL=document.getElementById("bh24p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh24p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH24P4:END-->
 </body></html>
